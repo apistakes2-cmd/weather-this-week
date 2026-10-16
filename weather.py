@@ -4,7 +4,7 @@ predictions = {'monday': 'sunny','tuesday': 'rainy',
                'sunday': 'snowy'
 }
 
-day= input('enter day :')
+day= input('enter day : ')
 if day in predictions:
     print(predictions[day])
     print("Thank you for using the weather prediction program.")
