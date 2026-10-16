@@ -1,11 +1,11 @@
-predictions = {'monday': 'sunny','thusday': 'rainy',
-               'wendday': 'cloudy','thursday': 'sunny',
+predictions = {'monday': 'sunny','tuesday': 'rainy',
+               'wednesday': 'cloudy','thursday': 'sunny',
                'friday': 'sunny','saturday': 'thunderstorms',
                'sunday': 'snowy'
 }
 
 day= input('enter day :')
-print(predictions[day])
-
-  
-
+if day in predictions:
+    print(predictions[day])
+else:
+    print("Day not found.")
